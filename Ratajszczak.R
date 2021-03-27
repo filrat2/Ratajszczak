@@ -54,3 +54,4 @@ str_replace_all(przykladowy_fragment, pattern = "[\\:][^03.13:][0-9]+[\\.][0-9]+
 
 wartosci = str_extract_all(przykladowy_fragment, pattern = "[^03.13:][0-50]+[\\.][0-9]+")
 wartosci
+
