@@ -47,7 +47,7 @@ horoskop_kmz('Antoni', 12)
 
 przykladowy_fragment = '2019-03-11: 23.5, 19/03/12: 12.7, 2019.03.13: 11.1, 2019-marzec-14: 14.3'
 
-str_replace_all(przykladowy_fragment, pattern = "[\\:][^03.13:][0-50]+[\\.][0-9]+",
+str_replace_all(przykladowy_fragment, pattern = "[\\:][^03.13:][0-9]+[\\.][0-9]+",
                 replacement = "")
 
 # zadanie 6.5.
